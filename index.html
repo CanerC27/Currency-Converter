@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Döviz Çevirici</title>
+</head>
+<body>
+    
+    <div class="container">
+        <h2>Döviz Çevirici</h2>
+        <form>
+        <div class="amount">
+            <p>Miktar</p>
+            <input type="text" value="1">
+        </div>
+        <div class="convert-box">
+            <div class="from">
+                <p>Para Birimi</p>
+                <div class="select-input">
+                    <img src="https://flagcdn.com/48x36/us.png">
+                    <select></select>
+                </div>
+            </div>
+
+            <div class="reverse"><i class="fas fa-exchange-alt"></i></div>
+
+            <div class="to">
+                <p>Çevirilecek Para Birimi</p>
+                <div class="select-input">
+                    <img src="https://flagcdn.com/48x36/ae.png">
+                    <select></select>
+                </div>
+            </div>
+            <div class="result">Döviz Kuru Alınıyor...</div>
+            <button>Hesapla</button>
+        </div>
+    </form>
+    </div>
+
+    <script src="countries.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
